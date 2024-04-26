@@ -1,0 +1,33 @@
+{
+  "name": "unit-tests-home-task",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "unit testing example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix",
+    "prepare": "husky install"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.0.0"
+  },
+  "dependencies": {
+    "c8": "^9.1.0",
+    "chai": "^5.1.0",
+    "husky": "^9.0.11",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}
