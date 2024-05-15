@@ -14,3 +14,9 @@ export default [
   { languageOptions: { globals: globals.browser } },
   ...compat.extends('standard')
 ]
+
+
+module.exports = {
+  // ... other rules
+  'comma-dangle': ['error', 'always-multiline'],
+}
